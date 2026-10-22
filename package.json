@@ -1,0 +1,27 @@
+{
+  "name": "brightic-backend",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "build": "medusa build",
+    "start": "medusa start",
+    "develop": "medusa develop",
+    "seed": "medusa exec src/scripts/seed.ts"
+  },
+  "dependencies": {
+    "@medusajs/admin-sdk": "2.21.2",
+    "@medusajs/cli": "^2.21.2",
+    "@medusajs/file-local": "2.21.2",
+    "@medusajs/framework": "2.21.2",
+    "@medusajs/medusa": "2.21.2",
+    "medusa-payment-yookassa": "^1.0.2"
+  },
+  "devDependencies": {
+    "@swc-node/register": "^1.10.9",
+    "@swc/core": "^1.7.28",
+    "@swc/helpers": "^0.5.13",
+    "@types/node": "^22.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  }
+}
